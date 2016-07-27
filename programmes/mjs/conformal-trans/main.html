@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf8" />
+    <title></title>
+
+</head>
+<canvas height="500" width="500" id="canvas1"></canvas>
+<canvas height="250" width="250" id="canvas2"></canvas><br/>
+<input type="file" id="img-file"/>
+<div>
+    原图坐标系
+    (<input type="text" id="ox1" value="-2">,<input type="text" id="oy1" value="2">)-
+    (<input type="text" id="ox2" value="2">,<input type="text" id="oy2" value="-2">)
+</div>
+<div>
+    像图坐标系
+    (<input type="text" id="ix1" value="-2">,<input type="text" id="iy1" value="2">)-
+    (<input type="text" id="ix2" value="2">,<input type="text" id="iy2" value="-2">)
+</div>
+<div>
+    逆变换<input type="text" id="formula" value="z ^ 2"/>
+    <button id='btn1'>draw</button>
+</div>
+<div>
+    逆变换<input type="text" id="formula2" value="z ^ 2"/>
+    参数a从<input type="text" id="pstart" value="0"/>
+    变化到<input type="text" id="pend" value="1"/>
+    ，次数<input type="text" id="times" value="10"/>
+    <button id='btn2'>draw2</button>
+</div>
+<script src="../jquery-1.12.0.min.js"></script>
+<script src="mathx.js"></script>
+<script src="trans.js"></script>
+<script src="app.js"></script>
+
+</html>

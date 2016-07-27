@@ -1,6 +1,5 @@
 var LowInterest = {
 	'乙醇' : {
-		type : 'n.'
 		content : '钟志亿的外号。他曾是[[计祘尺教]]的[[大主教]]。'
 	}
 };
